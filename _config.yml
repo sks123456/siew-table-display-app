@@ -1,9 +1,16 @@
 title: My Jekyll Site
 description: A description of your site
-baseurl: "/app" # the subpath of your site, e.g. /blog
-url: "https://sks123456.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
 
 theme: jekyll-theme-primer
+
+# Exclude node_modules and other unwanted directories/files
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 plugins:
   - jekyll-seo-tag
