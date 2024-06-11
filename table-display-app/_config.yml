@@ -8,9 +8,6 @@ theme: jekyll-theme-primer
 # Exclude directories and files
 exclude:
   - node_modules
-  - vendor
-  - Gemfile
-  - Gemfile.lock
 
 plugins:
   - jekyll-seo-tag
