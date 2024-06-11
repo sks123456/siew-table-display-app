@@ -1,0 +1,45 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Ruby gems
+vendor/
+
+# Ignore log files and temp files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Ignore Jekyll-specific files
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration and dependency files
+Gemfile
+Gemfile.lock
+yarn.lock
+package-lock.json
